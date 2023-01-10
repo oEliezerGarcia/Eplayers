@@ -22,6 +22,7 @@ $(document).ready(function(){
       if(slideAtual > listaSlides.length - 1){
         slideAtual = 0
       }
+
     }
   
 
