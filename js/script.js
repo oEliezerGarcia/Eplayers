@@ -27,13 +27,16 @@ $(document).ready(function(){
 
 
 
-  $("#barras").click(function(){
-    if ($("#menu").hasClass("menu-ativo")){
-        $("#menu").removeClass("menu-ativo")      
-    }else{
-      $("#menu").addClass("menu-ativo")
-    }
-  })
+  
+  
+  
+    $("#barras").click(function(){
+      if ($("#menu").hasClass("menu-ativo")){
+       $("#menu").removeClass("menu-ativo")
+      }else{
+       $("#menu").addClass("menu-ativo")
+      }
+   })
 })
 
 function cadastrarNewsLetter(){
